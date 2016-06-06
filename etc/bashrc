@@ -41,6 +41,7 @@ alias sysro='mount -o remount,ro /system'
 alias sysrw='mount -o remount,rw /system'
 alias ls='/system/xbin/ls --color=auto'
 alias ps='/system/xbin/ps'
+alias su='su -s /system/xbin/bash'
 
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs
