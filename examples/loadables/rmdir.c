@@ -32,6 +32,7 @@
 #include <errno.h>
 #endif
 
+int
 rmdir_builtin (list)
      WORD_LIST *list;
 {

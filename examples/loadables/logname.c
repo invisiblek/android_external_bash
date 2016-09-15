@@ -35,6 +35,7 @@
 #include <errno.h>
 #endif
 
+int
 logname_builtin (list)
      WORD_LIST *list;
 {

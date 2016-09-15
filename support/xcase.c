@@ -36,6 +36,8 @@
 #include <errno.h>
 #endif
 
+extern int optind;
+
 #define LOWER	1
 #define UPPER	2
 

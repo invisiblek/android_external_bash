@@ -38,6 +38,7 @@
 #include <errno.h>
 #endif
 
+int
 unlink_builtin (list)
      WORD_LIST *list;
 {
